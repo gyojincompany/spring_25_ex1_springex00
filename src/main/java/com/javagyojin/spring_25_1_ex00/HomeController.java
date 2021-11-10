@@ -48,4 +48,10 @@ public class HomeController {
 		return "admin";
 	}
 	
+	@RequestMapping("/loginForm.html")
+	public String loginForm(Locale locale, Model model) {
+		
+		return "loginForm";
+	}
+	
 }
